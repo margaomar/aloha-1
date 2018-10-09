@@ -1,0 +1,808 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Medium.woff2') format('woff2'),
+        url('fonts/Raleway-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-LightItalic.woff2') format('woff2'),
+        url('fonts/Raleway-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-MediumItalic.woff2') format('woff2'),
+        url('fonts/Raleway-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/Raleway-Light.woff2') format('woff2'),
+        url('fonts/Raleway-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Bold.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-BoldItalic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Italic.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Playfair Display';
+    src: url('fonts/PlayfairDisplay-Regular.woff2') format('woff2'),
+        url('fonts/PlayfairDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+ /*header */
+.logo{
+    width: 200px;
+    height: 60px;
+    margin-top: 13px; 
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+.cart{
+    height: 55px;
+    width: 55px;
+    margin-top: 18px;
+    margin-right: 25px;
+}
+.liste{
+    font-size: 16px;
+    color: #e2574c;
+    margin-top: 18px;
+    margin-right: 135px;
+}
+.liste li{
+    display: inline-block;
+    margin-left: 30px;
+    color: #e2574c;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+header {
+    margin-bottom: 10px;
+}
+.headd{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* body */
+.NewCollection {
+    font-size: 25px ;
+ margin-top: 380px;
+ margin-bottom: 30px;
+ text-align: center; 
+ font-family: "Raleway";
+ text-shadow: 2px 2px #666666;
+
+}
+.title {
+    font-size: 62px ;
+ margin-top: 130px;
+ margin-bottom: 5px;
+ text-align: center; 
+ font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: normal;
+ text-shadow: 2px 2px #666666;
+}
+.lettre div{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;  
+}
+.titles2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-top: 70px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+}
+.italic{
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: italic;
+}
+/* Le paragraphe en dessous de bannière*/
+.paragraphe{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+   font-size: 20px;
+   font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: #242C2C;
+    line-height: 30px;
+}
+.tablette{
+    display: none;
+}
+.desktop{
+    display: flex;
+}
+/* la grande bannière*/
+.banniere{
+    background:url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: center 80px, center top;
+    margin: 50px,0px, 50px;
+    height: 600px;
+    background-size: 20%, cover;
+    display: flex, flex;
+}
+/* Les différentes catégories*/
+.mens-section{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+.mens{
+    background: url(images/mens-category.jpg);
+    width: 50%;
+    background-size: 100%;
+    margin-top: 8px;
+    background-size: cover;
+}
+.trends{
+    background: url(images/trends-category.jpg);
+    width: 25%;
+    background-size: 100%;
+    margin-left: 8px;
+    margin-top: 8px;
+    background-size: cover;
+}
+.glasses{
+    background: url(images/glasses-category.jpg);
+    width: 25%;
+    background-size: 100%;
+    margin-left: 8px;
+    margin-top: 8px;
+    background-size: cover;
+}
+
+.womens-section{
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+.womens{
+    background: url(images/womens-category.jpg);
+    width: 50%;
+    background-size: 100%;
+    margin-left: 8px;
+    margin-top: 8px;
+    background-size: cover;
+}
+.sale{
+    background: url(images/sale-category.jpg);
+    width: 25%;
+    background-size: 100%;
+    margin-top: 8px;
+    background-size: cover;
+}
+.bags{
+    background: url(images/bags-category.jpg);
+    width: 25%;
+    background-size: 100%;
+    margin-left: 8px;
+    margin-top: 8px;
+    background-size: cover;
+}
+.mens-section div, .womens-section div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.mens-section h2 , .womens-section h2 {
+    color: white;
+    font-size: 30px;
+    font-family: "Raleway";
+    text-shadow: 1px 1px #666666;
+    text-decoration: none;
+}
+
+/*Fin des différentes catégories*/
+/*les meilleurs produits*/
+
+.listeproduit{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.listeproduit h2{
+    font-size: 13px;
+    display:flex;
+    color: #969696;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-style: normal;
+    justify-content: center;
+}
+.listeproduit h3{
+    font-size: 21px;
+    display: flex;
+    margin-top: 20px;
+    color: #e2574c;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-style: normal;
+    justify-content: center;
+}
+.listeproduit h4{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+/* partie email avec bannière et formulaire*/
+.banemail{
+    background: url(images/wave-bkgd.jpg);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    margin: 50px,0px, 50px;
+    height: 300px;
+    background-size: cover;
+    padding-top: 1px;
+
+}
+.email {
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 9px;
+    width: 280px;
+    height: 25px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: #969696;
+    font-size: 16px;
+    border: 0px;
+}
+.paragraphe2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 1px #666666;
+    line-height: 30px;
+}
+.round{
+    border-radius: 50px;
+    background: white;
+    width: 400px;
+    height: 45px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin-left: 36%
+}
+.round button{
+    background: #e2574c;
+    width: 90px;
+    height: 38px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 4px;
+    margin-left: 7px;
+}
+.titles3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 1px #666666;
+    margin-left: 30px;
+}
+/*Fin de la partie mail*/
+/*footer part */
+.footer{
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: normal;
+    display:flex;
+    justify-content: space-between;
+    background-color: #242424;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    line-height: 27px;
+}
+.social-media li {
+    text-align: justify;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    margin: 10px;
+}
+
+#facebook::before{
+ content:"\f09a" ;
+ color: white;
+ font-family:"Font Awesome 5 Brands";
+}
+#twitter::before{
+    content:"\f099" ;
+    color: white;
+    font-family:"Font Awesome 5 Brands";
+}
+#instagram::before{
+    content:"\f16d" ;
+    color: white;
+    font-family:"Font Awesome 5 Brands";
+}
+#pinterest::before{
+    content:"\f0d2" ;
+    color: white;
+    font-family:"Font Awesome 5 Brands";
+}
+#Googleplus::before{
+    content:"\f0d5" ;
+    color: white;
+    font-family:"Font Awesome 5 Brands";
+}
+.adress {
+    color: gray;
+}
+/* Lien cachés*/
+a.liensm:link 
+{ 
+text-decoration:none; 
+color: #b64036;
+} 
+.lienmail{
+    text-decoration:white; 
+color: white ;
+}
+.lienliste{ 
+    text-decoration:none; 
+    color: #b64036;
+}
+/*fin du site pour desktop*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px) {
+/* header */
+
+.liste li{
+    display: inline-block;
+    margin-left: 15px;
+    color: #e2574c;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+/* body */
+.NewCollection {
+    font-size: 18px ;
+ margin-top: 118px;
+ margin-bottom: 30px;
+ text-align: center; 
+ font-family: "Raleway";
+ text-shadow: 2px 2px #666666;
+
+}
+.title {
+    font-size: 37px ;
+ margin-top: -163px;
+ margin-bottom: 5px;
+ text-align: center; 
+ font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: normal;
+ text-shadow: 2px 2px #666666;
+}
+
+/* Le paragraphe en dessous de bannière*/
+.paragraphe{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+   font-size: 18px;
+   font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: #242C2C;
+    line-height: 30px;
+}
+.tablette{
+    display: flex;
+}
+.desktop{
+    display: none;
+}
+/* la grande bannière*/
+.banniere{
+    background:url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+    background-repeat: no-repeat, no-repeat;
+    margin: 50px,0px, 50px;
+    display: flex, flex;
+    background-position: center 57px, center top;
+    height: 319px;
+    background-size: 19%, cover;
+}
+/* Les différentes catégories*/
+.mens-section{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.womens-section{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+/*Fin des différentes catégories*/
+/*les meilleurs produits*/
+
+.shortun{
+    display: none;
+}
+.robedeux{
+    display: none;
+}
+
+/* partie email avec bannière et formulaire*/
+.banemail{
+    background: url(images/wave-bkgd.jpg);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 300px;
+    background-size: 193%;
+    padding-top: 1px;
+
+}
+.email {
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 9px;
+    width: 280px;
+    height: 25px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: #969696;
+    font-size: 16px;
+    border: 0px;
+}
+.paragraphe2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 1px #666666;
+    line-height: 30px;
+}
+.round{
+    border-radius: 50px;
+    background: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin-left: 27%;
+}
+.round button{
+    background: #e2574c;
+    width: 87px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+/*Fin de la partie mail*/
+/*footer part */
+.footer{
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    background-color: #242424;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 27px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 480px) {
+/* header */
+
+.logo{
+    width: 100px;
+    height: 60px;
+    margin-top: 13px; 
+    margin-left: 11px;
+    margin-bottom: 10px;
+}
+.cart{
+    height: 50px;
+    width: 50px;
+    margin-top: 18px;
+    margin-right: 10px;
+    display: flex;
+}
+.liste{
+    font-size: 16px;
+    color: #e2574c;
+    margin-top: 20px;
+    margin-right: -77px;
+    margin-left: -100px;
+    display: flex;
+}
+.liste li{
+    display: inline-block;
+    margin-left: 15px;
+    color: #e2574c;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+
+/* body */
+.NewCollection {
+    font-size: 18px ;
+ margin-top: 118px;
+ margin-bottom: 30px;
+ text-align: center; 
+ font-family: "Raleway";
+ text-shadow: 2px 2px #666666;
+
+}
+.title {
+    font-size: 37px ;
+ margin-top: -163px;
+ margin-bottom: 5px;
+ text-align: center; 
+ font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: normal;
+ text-shadow: 2px 2px #666666;
+}
+
+/* Le paragraphe en dessous de bannière*/
+.paragraphe{
+    margin-top: 10px;
+    margin-bottom: 60px;
+    text-align: center;
+   font-size: 18px;
+   font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: #242C2C;
+    line-height: 30px;
+}
+.tablette{
+    display: flex;
+}
+.desktop{
+    display: none;
+}
+/* la grande bannière*/
+.banniere{
+    background:url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+    background-repeat: no-repeat, no-repeat;
+    margin: 50px,0px, 50px;
+    display: flex, flex;
+    background-position: center 57px, center top;
+    height: 319px;
+    background-size: 19%, cover;
+}
+/* Les différentes catégories*/
+.mens-section{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+.womens-section{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+}
+/*Fin des différentes catégories*/
+/*les meilleurs produits*/
+
+.shortun{
+    display: none;
+}
+.robedeux{
+    display: none;
+}
+
+/* partie email avec bannière et formulaire*/
+.banemail{
+    background: url(images/wave-bkgd.jpg);
+    margin-top: 100px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 300px;
+    background-size: 193%;
+    padding-top: 1px;
+
+}
+.email {
+    margin-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 9px;
+    width: 280px;
+    height: 25px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: #969696;
+    font-size: 16px;
+    border: 0px;
+}
+.paragraphe2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 1px #666666;
+    line-height: 30px;
+}
+.round{
+    border-radius: 50px;
+    background: white;
+    width: 300px;
+    height: 40px;
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin-left: 27%;
+}
+.round button{
+    background: #e2574c;
+    width: 87px;
+    height: 30px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5px;
+    margin-left: 1px;
+    margin-right: 5px;
+}
+/*Fin de la partie mail*/
+/*footer part */
+.footer{
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-style: normal;
+    display: flex;
+    background-color: #242424;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 27px;
+}
+
+}
+
