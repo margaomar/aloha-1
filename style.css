@@ -241,6 +241,25 @@ header {
     text-shadow: 1px 1px #666666;
     text-decoration: none;
 }
+.menmobile{
+    display: none;
+}
+.trendsmobile{
+    display: none;
+}
+.glassesmobile{
+    display: none;
+}
+
+.womensmobile{
+    display: none;
+}
+.bagsmobile{
+    display: none;
+}
+.salemobile{
+    display: none;
+}
 
 /*Fin des différentes catégories*/
 /*les meilleurs produits*/
@@ -428,6 +447,8 @@ color: white ;
     text-decoration:none; 
     color: #b64036;
 }
+.mobilepolice{display: none;}
+.mobiletitre{display: none;}
 /*fin du site pour desktop*/
 
 
@@ -518,6 +539,24 @@ color: white ;
     justify-content: center;
     height: 249px;
 }
+.menmobile{
+    display: none;
+}
+.trendsmobile{
+    display: none;
+}
+.glassesmobile{
+    display: none;
+}
+
+.womensmobile{
+    display: none;
+}
+.bagsmobile{
+    display: none;
+}
+.salemobile{
+    display: none;}
 /*Fin des différentes catégories*/
 /*les meilleurs produits*/
 
@@ -610,10 +649,441 @@ color: white ;
     padding-right: 0px;
     line-height: 27px;
 }
-
+.mobilepolice{display: none;}
+.mobiletitre{display: none;}
 }
 
 
+
+
+
+
+
+
+@media screen and (max-width: 425px) {
+    html{ font-size:14px;
+        width:425px;
+    }
+    
+     /*header */
+    .logo{
+        width: 12.5rem;
+        height: 3.75rem;
+        margin-top: 25px; 
+        margin-left: 10px;
+        margin-bottom: 0.625rem;
+        display: flex;
+        order: 1
+    }
+    .cart{
+        height: 55px;
+        width: 55px;
+        margin-top: 25px;
+        margin-right: 25px;
+        order: 2;
+    }
+    .liste{
+        font-size: 16px;
+        color: #e2574c;
+        margin-top: 18px;
+        display: flex;
+        justify-content: center;
+        order:2;
+    }
+    .liste li{
+        display: inline-flex;
+        margin: 15px;
+        color: #e2574c;
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-style: normal;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    
+    .headd{
+        display: flex;
+        flex-flow: wrap;
+    }
+    /* Le logo*/
+    .order1{
+        order:1;
+        width: 50%;
+    }
+    /*La liste*/
+    .order2{
+        order :3;
+        margin: 0 auto;
+    ;
+    }
+    /* Le panier*/
+    .order3{
+        order:2;
+        width: 50%;
+    }
+    .order3 img{
+        float: right;
+    }
+    /* body */
+    /* Bannière*/
+    .banniere{
+        background: url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+        background-repeat: no-repeat, no-repeat;
+        background-position: center 90px, center top;
+        height: 530px;
+        background-size: 44%, cover;
+        display: flex, flex;
+        width: 425px;
+    }
+    .NewCollection {
+     font-size: 23px ;
+     margin-top: 310px;
+     margin-bottom: 30px;
+     text-align: center; 
+     display: flex;
+     font-family: "Raleway";
+     text-shadow: 2px 2px #666666;
+    
+    }
+    .mobiletitre{
+        display: unset;
+    }
+    .title {
+     font-size: 45px ;
+     margin-top: 130px;
+     margin-bottom: 5px;
+     text-align: center; 
+     font-family: 'Playfair Display';
+     font-weight: normal;
+     font-style: normal;
+     text-shadow: 2px 2px #666666;
+     display: flex;
+    }
+    .lettre div{
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;  
+    }
+    .titles2 {
+        font-size: 40px;
+        margin-bottom: 25px;
+        margin-top: 70px;
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-style: normal;
+    }
+    .italic{
+        font-family: 'Playfair Display';
+        font-weight: normal;
+        font-style: italic;
+    }
+    /* Le paragraphe en dessous de bannière*/
+    .paragraphe{
+        margin-top: 10px;
+        margin-bottom: 70px;
+        text-align: center;
+       font-size: 16px;
+       font-family: 'Raleway';
+        font-weight: 300;
+        font-style: normal;
+        color: #242C2C;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .tablette{
+        display: none;
+    }
+    .desktop{
+        display: none;
+    }
+    .mobilepolice{
+        display: unset;
+    }
+    /* Les différentes catégories*/
+    
+    
+    .mens-section div, .womens-section div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+    }
+    .mens-section h2 , .womens-section h2 {
+        color: white;
+        font-size: 30px;
+        font-family: "Raleway";
+        text-shadow: 1px 1px #666666;
+        text-decoration: none;
+    }
+    
+    .menmobile{
+        background: url(images/mens-category.jpg);
+        width: 100%;
+        background-size: 100%;
+        margin-top: 8px;
+        background-size: cover;
+        height: 200px;
+    }
+    .trendsmobile{
+        background: url(images/trends-category.jpg);
+        width: 49%;
+        background-size: 100%;
+        margin-right: 8px;
+        margin-top: 8px;
+        background-size: cover;
+        height: 200px;
+    }
+    .glassesmobile{
+        background: url(images/glasses-category.jpg);
+        width: 49%;
+        background-size: 100%;
+        margin-top: 8px;
+        background-size: cover;
+        height: 200px;
+        margin-left: 217px;
+        margin-top: -200px;
+        margin-bottom: 8px;
+    }
+    
+    .womensmobile{
+        background: url(images/womens-category.jpg);
+        width: 100%;
+        background-size: 100%;
+        margin-top: 8px;
+        background-size: cover;
+        height: 200px;
+    }
+    .bagsmobile{
+        background: url(images/bags-category.jpg);
+        width: 49%;
+        background-size: 100%;
+        margin-top: 8px;
+        background-size: cover;
+        height: 200px;
+        margin-left: 217px;
+        margin-top: -200px;
+        margin-bottom: 8px;
+    }
+    .salemobile{
+        background: url(images/sale-category.jpg);
+        width: 49%;
+        background-size: 100%;
+        margin-right: 8px;
+        margin-top: 8px;
+        background-size: cover;
+        height: 200px;
+    }
+    /*Fin des différentes catégories*/
+    /*les meilleurs produits*/
+    
+    .listeproduit{
+        display: flex;
+        margin-top: 30px;
+        justify-content: center;
+    }
+    .listeproduit h2{
+        font-size: 13px;
+        display:flex;
+        color: #969696;
+        font-family: 'Raleway';
+        font-weight: 800;
+        font-style: normal;
+        justify-content: center;
+    }
+    .listeproduit h3{
+        font-size: 21px;
+        display: flex;
+        margin-top: 20px;
+        color: #e2574c;
+        font-family: 'Playfair Display';
+        font-weight: 500;
+        font-style: normal;
+        justify-content: center;
+    }
+    .listeproduit h4{
+        font-family: 'Raleway';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 16px;
+        color: #969696;
+        margin-top: 20px;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .sacun{
+        display: none;
+    }
+    .robedeux{
+        display: none;
+    }
+    .shortun{
+        display: none;
+    }
+    
+    /* partie email avec bannière et formulaire*/
+    .banemail{
+        background: url(images/wave-bkgd.jpg);
+        margin-top: 100px;
+        margin-bottom: 10px;
+        background-repeat: no-repeat;
+        background-position: center bottom;
+        margin: 50px,0px, 50px;
+        height: 300px;
+        background-size: cover;
+        padding-top: 1px;
+    
+    }
+    .email {
+        margin-left: 10px;
+        margin-bottom: 40px;
+        margin-top: 9px;
+        width: 215px;
+        height: 25px;
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-style: normal;
+        color: #969696;
+        font-size: 16px;
+        border: 0px;
+    }
+    .paragraphe2{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        text-shadow: 1px 1px #666666;
+        line-height: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .round{
+        border-radius: 50px;
+        background: white;
+        width: 339px;
+        height: 45px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        margin-left: 12%;
+    }
+    .round button{
+        background: #e2574c;
+        width: 95px;
+        height: 36px;
+        border-radius: 50px;
+        color: white;
+        font-size: 16px;
+        border: 0px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-style: normal;
+        margin-top: 4px;
+        margin-left: 7px;
+    }
+    .titles3 {
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 50px;
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-weight: bold;
+        font-style: normal;
+        color: white;
+        text-shadow: 1px 1px #666666;
+        margin-left: 0px;
+    }
+    /*Fin de la partie mail*/
+    /*footer part */
+    .footer{
+        font-family: 'Playfair Display';
+        font-weight: normal;
+        font-style: normal;
+        background-color: #242424;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+        line-height: 27px;
+        display: block;
+    }
+    .social-media li {
+        font-family: 'Raleway';
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        margin: -10px;
+        display: inline-flex;
+        align-self: auto;
+        margin-left: 49px;
+    }
+    .credit{
+        margin-left: 50px;
+    }
+    .social-media p{
+        display: none;
+    }
+    #facebook::before{
+     content:"\f09a" ;
+     color: white;
+     font-family:"Font Awesome 5 Brands";
+    }
+    #twitter::before{
+        content:"\f099" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
+    }
+    #instagram::before{
+        content:"\f16d" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
+    }
+    #pinterest::before{
+        content:"\f0d2" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
+    }
+    #Googleplus::before{
+        content:"\f0d5" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
+    }
+    .adress {
+        color: gray;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    /* Lien cachés*/
+    a.liensm:link 
+    { 
+    text-decoration:none; 
+    color: #b64036;
+    } 
+    .lienmail{
+        text-decoration:white; 
+    color: white ;
+    }
+    .lienliste{ 
+        text-decoration:none; 
+        color: #b64036;
+    }
+    /*fin du site pour mobile */
+    }
 
 
 
