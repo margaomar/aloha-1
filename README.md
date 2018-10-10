@@ -12,7 +12,7 @@ You don't need to install anything.
 
 ## Authors
 
-* **Paul Petillot** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Paul Petillot**
 
 
 ## License

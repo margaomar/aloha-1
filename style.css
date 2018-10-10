@@ -657,9 +657,6 @@ color: white ;
 
 
 
-
-
-
 @media screen and (max-width: 425px) {
     html{ font-size:14px;
         width:425px;
@@ -1036,31 +1033,6 @@ color: white ;
     }
     .social-media p{
         display: none;
-    }
-    #facebook::before{
-     content:"\f09a" ;
-     color: white;
-     font-family:"Font Awesome 5 Brands";
-    }
-    #twitter::before{
-        content:"\f099" ;
-        color: white;
-        font-family:"Font Awesome 5 Brands";
-    }
-    #instagram::before{
-        content:"\f16d" ;
-        color: white;
-        font-family:"Font Awesome 5 Brands";
-    }
-    #pinterest::before{
-        content:"\f0d2" ;
-        color: white;
-        font-family:"Font Awesome 5 Brands";
-    }
-    #Googleplus::before{
-        content:"\f0d5" ;
-        color: white;
-        font-family:"Font Awesome 5 Brands";
     }
     .adress {
         color: gray;
