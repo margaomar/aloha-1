@@ -60,7 +60,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
 html { font-size: 16px; }
+
  /*header */
 .logo{
     width: 12.5rem;
@@ -462,8 +464,7 @@ color: white ;
 
 
 
-
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1039px) {
 /* header */
 .liste li{
     display: inline-block;
@@ -656,31 +657,29 @@ color: white ;
 
 
 
-
-@media screen and (max-width: 425px) {
-    html{ font-size:14px;
-        width:425px;
+@media screen and (max-width: 600px) {
+html{ font-size:14px;
     }
     
      /*header */
     .logo{
-        width: 12.5rem;
-        height: 3.75rem;
-        margin-top: 25px; 
-        margin-left: 10px;
+        width: 16.5rem;
+        height: 6.75rem;
+        margin-top: 35px;
+        margin-left: 39px;
         margin-bottom: 0.625rem;
         display: flex;
-        order: 1
+        order: 1;
     }
     .cart{
-        height: 55px;
-        width: 55px;
+        height: 117px;
+        width: 120px;
         margin-top: 25px;
-        margin-right: 25px;
         order: 2;
+        margin-right: 5px;
     }
     .liste{
-        font-size: 16px;
+        font-size: 35px;
         color: #e2574c;
         margin-top: 18px;
         display: flex;
@@ -689,7 +688,7 @@ color: white ;
     }
     .liste li{
         display: inline-flex;
-        margin: 15px;
+        margin: 20px;
         color: #e2574c;
         font-family: 'Raleway';
         font-weight: 500;
@@ -714,12 +713,12 @@ color: white ;
     .order2{
         order :3;
         margin: 0 auto;
-    ;
     }
     /* Le panier*/
     .order3{
         order:2;
         width: 50%;
+        float: right;
     }
     .order3 img{
         float: right;
@@ -729,35 +728,35 @@ color: white ;
     .banniere{
         background: url(images/banner-girl.png), url(images/flower-bkgd.jpg);
         background-repeat: no-repeat, no-repeat;
-        background-position: center 90px, center top;
-        height: 530px;
-        background-size: 44%, cover;
+        background-position: center 120px, center top;
+        height: 1021px;
+        background-size: 41%, cover;
         display: flex, flex;
-        width: 425px;
+        width: 1000px;
     }
     .NewCollection {
-     font-size: 23px ;
-     margin-top: 310px;
-     margin-bottom: 30px;
-     text-align: center; 
-     display: flex;
-     font-family: "Raleway";
-     text-shadow: 2px 2px #666666;
-    
+        font-size: 45px;
+        margin-top: 630px;
+        margin-bottom: 30px;
+        text-align: center;
+        display: flex;
+        font-family: "Raleway";
+        text-shadow: 2px 2px #666666;
     }
+    
     .mobiletitre{
         display: unset;
     }
     .title {
-     font-size: 45px ;
-     margin-top: 130px;
-     margin-bottom: 5px;
-     text-align: center; 
-     font-family: 'Playfair Display';
-     font-weight: normal;
-     font-style: normal;
-     text-shadow: 2px 2px #666666;
-     display: flex;
+        font-size: 73px;
+        margin-top: 563px;
+        margin-bottom: 5px;
+        text-align: center;
+        font-family: 'Playfair Display';
+        font-weight: normal;
+        font-style: normal;
+        text-shadow: 2px 2px #666666;
+        display: flex;
     }
     .lettre div{
         color: white;
@@ -767,8 +766,8 @@ color: white ;
         height: 150px;  
     }
     .titles2 {
-        font-size: 40px;
-        margin-bottom: 25px;
+        font-size: 82px;
+        margin-bottom: 38px;
         margin-top: 70px;
         text-align: center;
         font-family: 'Playfair Display';
@@ -785,7 +784,7 @@ color: white ;
         margin-top: 10px;
         margin-bottom: 70px;
         text-align: center;
-       font-size: 16px;
+       font-size: 27px;
        font-family: 'Raleway';
         font-weight: 300;
         font-style: normal;
@@ -800,9 +799,7 @@ color: white ;
     .desktop{
         display: none;
     }
-    .mobilepolice{
-        display: unset;
-    }
+    
     /* Les différentes catégories*/
     
     
@@ -821,60 +818,62 @@ color: white ;
     
     .menmobile{
         background: url(images/mens-category.jpg);
-        width: 100%;
+        width: 102%;
         background-size: 100%;
         margin-top: 8px;
         background-size: cover;
-        height: 200px;
+        height: 489px;
+        margin-bottom: 18px;
     }
     .trendsmobile{
         background: url(images/trends-category.jpg);
-        width: 49%;
+        width: 50%;
         background-size: 100%;
         margin-right: 8px;
         margin-top: 8px;
         background-size: cover;
-        height: 200px;
+        height: 489px;
     }
     .glassesmobile{
         background: url(images/glasses-category.jpg);
-        width: 49%;
+        width: 50%;
         background-size: 100%;
         margin-top: 8px;
         background-size: cover;
-        height: 200px;
-        margin-left: 217px;
-        margin-top: -200px;
+        height: 489px;
+        margin-left: 509px;
+        margin-top: -488px;
         margin-bottom: 8px;
     }
     
     .womensmobile{
         background: url(images/womens-category.jpg);
-        width: 100%;
+        width: 102%;
         background-size: 100%;
         margin-top: 8px;
         background-size: cover;
-        height: 200px;
+        height: 489px;
+        margin-top: 18px;
     }
     .bagsmobile{
         background: url(images/bags-category.jpg);
-        width: 49%;
+        width: 50%;
         background-size: 100%;
         margin-top: 8px;
         background-size: cover;
-        height: 200px;
-        margin-left: 217px;
-        margin-top: -200px;
+        height: 489px;
+        margin-left: 509px;
+        margin-top: -490px;
         margin-bottom: 8px;
     }
     .salemobile{
         background: url(images/sale-category.jpg);
-        width: 49%;
+        width: 50%;
         background-size: 100%;
         margin-right: 8px;
-        margin-top: 8px;
+        margin-top: 18px;
         background-size: cover;
-        height: 200px;
+        height: 489px;
     }
     /*Fin des différentes catégories*/
     /*les meilleurs produits*/
@@ -884,8 +883,9 @@ color: white ;
         margin-top: 30px;
         justify-content: center;
     }
+    
     .listeproduit h2{
-        font-size: 13px;
+        font-size: 17px;
         display:flex;
         color: #969696;
         font-family: 'Raleway';
@@ -894,7 +894,7 @@ color: white ;
         justify-content: center;
     }
     .listeproduit h3{
-        font-size: 21px;
+        font-size: 24px;
         display: flex;
         margin-top: 20px;
         color: #e2574c;
@@ -907,11 +907,12 @@ color: white ;
         font-family: 'Raleway';
         font-weight: 500;
         font-style: normal;
-        font-size: 16px;
+        font-size: 19px;
         color: #969696;
         margin-top: 20px;
         justify-content: center;
         display: flex;
+        margin-bottom: 20px;
     }
     
     .sacun{
@@ -927,14 +928,15 @@ color: white ;
     /* partie email avec bannière et formulaire*/
     .banemail{
         background: url(images/wave-bkgd.jpg);
-        margin-top: 100px;
+        margin-top: 50px;
         margin-bottom: 10px;
         background-repeat: no-repeat;
         background-position: center bottom;
         margin: 50px,0px, 50px;
-        height: 300px;
-        background-size: cover;
+        height: 460px;
+        background-size: 225%;
         padding-top: 1px;
+        width: 102%;
     
     }
     .email {
@@ -952,16 +954,16 @@ color: white ;
     }
     .paragraphe2{
         margin-top: 30px;
-        margin-bottom: 20px;
+        margin-bottom: 37px;
         margin-left: 0px;
         text-align: center;
-        font-size: 16px;
+        font-size: 31px;
         font-family: 'Raleway';
         font-weight: 300;
         font-style: normal;
         color: white;
         text-shadow: 1px 1px #666666;
-        line-height: 30px;
+        line-height: 44px;
         display: flex;
         justify-content: center;
     }
@@ -975,7 +977,7 @@ color: white ;
         justify-content: center;
         align-content: center;
         justify-items: center;
-        margin-left: 12%;
+        margin-left: 32%;
     }
     .round button{
         background: #e2574c;
@@ -992,9 +994,9 @@ color: white ;
         margin-left: 7px;
     }
     .titles3 {
-        font-size: 40px;
+        font-size: 59px;
         margin-bottom: 20px;
-        margin-top: 50px;
+        margin-top: 80px;
         text-align: center;
         font-family: 'Playfair Display';
         font-weight: bold;
@@ -1011,12 +1013,13 @@ color: white ;
         font-style: normal;
         background-color: #242424;
         color: white;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
         line-height: 27px;
         display: block;
+        width: 102%;
     }
     .social-media li {
         font-family: 'Raleway';
@@ -1026,19 +1029,49 @@ color: white ;
         margin: -10px;
         display: inline-flex;
         align-self: auto;
-        margin-left: 49px;
+        margin-left: 30px;
+        font-size: 20px;
+    }
+    .social-media{
+        margin-left: 380px;
     }
     .credit{
-        margin-left: 50px;
+        margin-left: 373px;
     }
     .social-media p{
         display: none;
+    }
+    #facebook::before{
+     content:"\f09a" ;
+     color: white;
+     font-family:"Font Awesome 5 Brands";
+    }
+    #twitter::before{
+        content:"\f099" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
+    }
+    #instagram::before{
+        content:"\f16d" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
+    }
+    #pinterest::before{
+        content:"\f0d2" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
+    }
+    #Googleplus::before{
+        content:"\f0d5" ;
+        color: white;
+        font-family:"Font Awesome 5 Brands";
     }
     .adress {
         color: gray;
         display: flex;
         justify-content: center;
         margin-bottom: 20px;
+        margin-right: 20px;
     }
     /* Lien cachés*/
     a.liensm:link 
@@ -1056,9 +1089,3 @@ color: white ;
     }
     /*fin du site pour mobile */
     }
-
-
-
-
-
-
