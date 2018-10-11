@@ -405,6 +405,7 @@ header {
     font-style: normal;
     color: white;
     margin: 10px;
+    display: flex;
 }
 
 #facebook::before{
