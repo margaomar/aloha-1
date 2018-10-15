@@ -560,38 +560,6 @@ color: white ;
 
 
 
-.carousel h2{
-    font-size: 13px;
-    display:flex;
-    color: #969696;
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-style: normal;
-    justify-content: center;
-}
-.carousel h3{
-    font-size: 21px;
-    display: flex;
-    margin-top: 20px;
-    color: #e2574c;
-    font-family: 'Playfair Display';
-    font-weight: 500;
-    font-style: normal;
-    justify-content: center;
-}
-.carousel h4{
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    color: #969696;
-    margin-top: 20px;
-    justify-content: center;
-    display: flex;
-}
-
-
-
 /* partie email avec bannière et formulaire*/
 .banemail{
     background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/wave-bkgd.jpg);
@@ -682,42 +650,41 @@ color: white ;
 
 
 @media screen and (max-width: 600px) {
-html{ font-size:14px;
+    html{ font-size:14px;
     }
     
      /*header */
     .logo{
-        width: 16.5rem;
-        height: 6.75rem;
-        margin-top: 35px;
-        margin-left: 39px;
-        margin-bottom: 0.625rem;
-        display: flex;
-        order: 1;
+    width: 7.5rem;
+    height: 3.75rem;
+    margin-top: 26px;
+    margin-left: 28px;
+    margin-bottom: 0px;
+    display: flex;
+    order: 1;
     }
     .cart{
-        height: 117px;
-        width: 120px;
-        margin-top: 25px;
+        height: 46px;
+        width: 88px;
+        margin-top: 30px;
         order: 2;
-        margin-right: 5px;
+        margin-right: -7px;
     }
     .liste{
-        font-size: 35px;
+        font-size: 12px;
         color: #e2574c;
-        margin-top: 18px;
-        display: flex;
-        justify-content: center;
         order:2;
+        display: inline;
+        margin-right: 0px;
     }
     .liste li{
         display: inline-flex;
-        margin: 20px;
+        margin: 13px;
         color: #e2574c;
         font-family: 'Raleway';
         font-weight: 500;
         font-style: normal;
-        margin-bottom: 15px;
+        margin-bottom: 5px;
         margin-top: 10px;
         align-content: center;
         justify-content: center;
@@ -752,16 +719,16 @@ html{ font-size:14px;
     .banniere{
         background: url(images/banner-girl.png), url(images/flower-bkgd.jpg);
         background-repeat: no-repeat, no-repeat;
-        background-position: center 120px, center top;
-        height: 1021px;
+        background-position: center 60px, center top;
+        height: 360px;
         background-size: 41%, cover;
         display: flex, flex;
-        width: 1000px;
+        width: 100%;
     }
     .NewCollection {
-        font-size: 45px;
-        margin-top: 630px;
-        margin-bottom: 30px;
+        font-size: 20px;
+        margin-top: 148px;
+        margin-bottom: 0px;
         text-align: center;
         display: flex;
         font-family: "Raleway";
@@ -772,8 +739,8 @@ html{ font-size:14px;
         display: unset;
     }
     .title {
-        font-size: 73px;
-        margin-top: 563px;
+        font-size: 30px;
+        margin-top: -40px;
         margin-bottom: 5px;
         text-align: center;
         font-family: 'Playfair Display';
@@ -790,9 +757,9 @@ html{ font-size:14px;
         height: 150px;  
     }
     .titles2 {
-        font-size: 82px;
+        font-size: 33px;
         margin-bottom: 38px;
-        margin-top: 70px;
+        margin-top: 25px;
         text-align: center;
         font-family: 'Playfair Display';
         font-weight: bold;
@@ -805,11 +772,11 @@ html{ font-size:14px;
     }
     /* Le paragraphe en dessous de bannière*/
     .paragraphe{
-        margin-top: 10px;
-        margin-bottom: 70px;
+        margin-top: -28px;
+        margin-bottom: 27px;
         text-align: center;
-       font-size: 27px;
-       font-family: 'Raleway';
+        font-size: 15px;
+        font-family: 'Raleway';
         font-weight: 300;
         font-style: normal;
         color: #242C2C;
@@ -828,199 +795,129 @@ html{ font-size:14px;
     
     
     .mens-section div, .womens-section div{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-    }
-    .mens-section h2 , .womens-section h2 {
-        color: white;
-        font-size: 30px;
-        font-family: "Raleway";
-        text-shadow: 1px 1px #666666;
-        text-decoration: none;
+          display: flex;
     }
     
     .menmobile{
         background: url(images/mens-category.jpg);
-        width: 102%;
+        width: 100%;
         background-size: 100%;
-        margin-top: 8px;
         background-size: cover;
-        height: 489px;
-        margin-bottom: 18px;
+        
+        
     }
     .trendsmobile{
         background: url(images/trends-category.jpg);
         width: 50%;
         background-size: 100%;
-        margin-right: 8px;
-        margin-top: 8px;
         background-size: cover;
-        height: 489px;
+        
     }
     .glassesmobile{
         background: url(images/glasses-category.jpg);
         width: 50%;
         background-size: 100%;
-        margin-top: 8px;
         background-size: cover;
-        height: 489px;
-        margin-left: 509px;
-        margin-top: -488px;
-        margin-bottom: 8px;
     }
     
     .womensmobile{
         background: url(images/womens-category.jpg);
-        width: 102%;
+        width: 100%;
         background-size: 100%;
-        margin-top: 8px;
         background-size: cover;
-        height: 489px;
-        margin-top: 18px;
     }
     .bagsmobile{
         background: url(images/bags-category.jpg);
         width: 50%;
         background-size: 100%;
-        margin-top: 8px;
         background-size: cover;
-        height: 489px;
-        margin-left: 509px;
-        margin-top: -490px;
         margin-bottom: 8px;
     }
     .salemobile{
         background: url(images/sale-category.jpg);
         width: 50%;
         background-size: 100%;
-        margin-right: 8px;
-        margin-top: 18px;
         background-size: cover;
-        height: 489px;
     }
     /*Fin des différentes catégories*/
     /*les meilleurs produits*/
     
-    .listeproduit{
-        display: flex;
-        margin-top: 30px;
-        justify-content: center;
-    }
-    
-    .listeproduit h2{
-        font-size: 17px;
-        display:flex;
-        color: #969696;
-        font-family: 'Raleway';
-        font-weight: 800;
-        font-style: normal;
-        justify-content: center;
-    }
-    .listeproduit h3{
-        font-size: 24px;
-        display: flex;
-        margin-top: 20px;
-        color: #e2574c;
-        font-family: 'Playfair Display';
-        font-weight: 500;
-        font-style: normal;
-        justify-content: center;
-    }
-    .listeproduit h4{
-        font-family: 'Raleway';
-        font-weight: 500;
-        font-style: normal;
-        font-size: 19px;
-        color: #969696;
-        margin-top: 20px;
-        justify-content: center;
-        display: flex;
-        margin-bottom: 20px;
-    }
-    
-    .sacun{
-        display: none;
-    }
-    .robedeux{
-        display: none;
-    }
-    .shortun{
-        display: none;
-    }
+  .carousel{
+    width: 100%;
+  }
     
     /* partie email avec bannière et formulaire*/
     .banemail{
-        background: url(images/wave-bkgd.jpg);
-        margin-top: 50px;
-        margin-bottom: 10px;
-        background-repeat: no-repeat;
-        background-position: center bottom;
-        margin: 50px,0px, 50px;
-        height: 460px;
-        background-size: 225%;
-        padding-top: 1px;
-        width: 102%;
+    background: url(images/wave-bkgd.jpg);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 288px;
+    background-size: 344%;
+    padding-top: 1px;
+    width: 100%;
     
     }
     .email {
-        margin-left: 10px;
-        margin-bottom: 40px;
-        margin-top: 9px;
-        width: 215px;
-        height: 25px;
+        margin-left: -16px;
+        margin-bottom: 0px;
+        margin-top: 8px;
+        width: 105px;
+        height: 13px;
         font-family: 'Raleway';
         font-weight: 300;
         font-style: normal;
         color: #969696;
-        font-size: 16px;
+        font-size: 15px;
         border: 0px;
     }
     .paragraphe2{
-        margin-top: 30px;
-        margin-bottom: 37px;
+        margin-top: 20px;
+        margin-bottom: 0px;
         margin-left: 0px;
         text-align: center;
-        font-size: 31px;
+        font-size: 14px;
         font-family: 'Raleway';
         font-weight: 300;
         font-style: normal;
         color: white;
         text-shadow: 1px 1px #666666;
-        line-height: 44px;
+        line-height: 30px;
         display: flex;
         justify-content: center;
     }
     .round{
         border-radius: 50px;
         background: white;
-        width: 339px;
-        height: 45px;
-        margin-top: 20px;
+        width: 200px;
+        height: 29px;
+        margin-top: 8px;
         display: flex;
         justify-content: center;
         align-content: center;
         justify-items: center;
-        margin-left: 32%;
+        margin-left: 17%;
     }
     .round button{
-        background: #e2574c;
-        width: 95px;
-        height: 36px;
-        border-radius: 50px;
-        color: white;
-        font-size: 16px;
-        border: 0px;
-        font-family: 'Raleway';
-        font-weight: 400;
-        font-style: normal;
-        margin-top: 4px;
-        margin-left: 7px;
+    background: #e2574c;
+    width: 65px;
+    height: 23px;
+    border-radius: 50px;
+    color: white;
+    font-size: 11px;
+    border: 0px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 3px;
+    margin-left: 10px;
+    margin-right: -26px;
     }
     .titles3 {
-        font-size: 59px;
-        margin-bottom: 20px;
-        margin-top: 80px;
+        font-size: 20px;
+        margin-bottom: 0px;
+        margin-top: 50px;
         text-align: center;
         font-family: 'Playfair Display';
         font-weight: bold;
@@ -1037,30 +934,35 @@ html{ font-size:14px;
         font-style: normal;
         background-color: #242424;
         color: white;
-        padding-top: 80px;
-        padding-bottom: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         padding-left: 0px;
         padding-right: 0px;
-        line-height: 27px;
+        line-height: 10px;
         display: block;
-        width: 102%;
+        width: 100%;
     }
     .social-media li {
         font-family: 'Raleway';
         font-weight: 300;
         font-style: normal;
         color: white;
-        margin: -10px;
+        margin: 15px;
         display: inline-flex;
         align-self: auto;
-        margin-left: 30px;
-        font-size: 20px;
+        font-size: 17px;
     }
+    /*
     .social-media{
-        margin-left: 380px;
+     
     }
+    */ 
     .credit{
-        margin-left: 373px;
+      display: flex;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      justify-content: center;
     }
     .social-media p{
         display: none;
