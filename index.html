@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Aloha Apparel Co.</title>
-    <meta name="Aloha Website" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="reset.css" media="screen">
-    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    <script src="main.js"></script>
+    <link rel="stylesheet" href="flickity.css" media="screen">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
  </head>
  <body>
 
@@ -22,16 +22,16 @@
             </div>
             <div class="mobileheader order2">
                 <ul class="liste">
-                <a href="" class="lienliste">
+                <a href="#aboutjv" class="lienliste">
                     <li>ABOUT</li>
                 </a>
-                <a href="" class="lienliste">
+                <a href="#shopjv" class="lienliste">
                     <li>SHOP</li>
                 </a>
-                <a href="" class="lienliste">
+                <a href="#ftjv" class="lienliste">
                     <li>FEATURED</li>
                 </a>
-                <a href="" class="lienliste">
+                <a href="#updatesjv" class="lienliste">
                     <li>UPDATES</li>
                 </a>
                 </ul>
@@ -61,9 +61,9 @@
         </section> 
 
 <!--Little part-->
-    <article class="container">
+    <article class="container" id="aboutjv">
         <section>
-            <h2 class="titles2"><span class="italic">Hand-Crafted </span>Styles</h2>
+            <h2 class="titles2"><span class="italic">Hand-Crafted </span> Styles</h2>
             <p class="paragraphe">Aloha Apparel Co. sells only the finest ready to travel clothing.<br class="tablette"> Browse our <br class="desktop" /> current selection of products or sign up
                for updates<br class="tablette"> below.</p>
         </section>
@@ -71,64 +71,87 @@
 
 
     <!--The differents category of the website-->
-   <section class="container">
+   <section class="mobilecontainer" id="shopjv">
         <div class="mens-section">
             <div class="mens menmobile">
-                <h2>MENS</h2>
+                <h2><a href=#>MENS</a></h2>
             </div>
             <div class="trends trendsmobile">
-                <h2>TRENDS</h2>
+                <h2><a href=#>TRENDS</a></h2>
             </div>
             <div class="glasses glassesmobile">
-                <h2>GLASSES</h2>
+                <h2><a href=#>GLASSES</a></h2>
             </div>
         </div>
 
         <div class="womens-section">
 
             <div class="sale salemobile">
-                <h2>SALE</h2>
+                <h2><a href=#>SALE</a></h2>
             </div>
             <div class="bags bagsmobile">
-                <h2>BAG</h2>
+                <h2><a href=#>BAG</a></h2>
             </div>
             <div class="womens womensmobile">
-                <h2>WOMENS</h2>
+                <h2><a href=#>WOMENS</a></h2>
             </div>
         </div>
     </section>
 
 <!--The differents most loved products-->
-    <article class="container">
+    <article class="container" id="ftjv">
         <section>
             <h2 class="titles2"><span class="italic">Most-Loved </span>Products</h2>
         </section>
     </article>
     <nav class="container">
-        <div class="listeproduit">
-            <div class="products robeune"><img src="images/checked-stretch-dress.jpg" alt="A checked stretch dress">
+        <div class="carousel" data-flickity='{ "autoPlay": true  }'>
+            <div class="products robeune carousel-cell"><img src="images/checked-stretch-dress.jpg" alt="A checked stretch dress">
                 <h2 class="product-type">DRESSES</h2>
                 <h3 class="product-name">Checked Stretch Dress</h3>
                 <h4 class="price">$129.00</h4>
             </div>
     
-    
-            <div class="products sacun"><img src="images/blue-hipster-backpack.jpg" alt="A hipster backpack">
+            <div class="products sacun carousel-cell"><img src="images/blue-hipster-backpack.jpg" alt="A hipster backpack">
                 <h2 class="product-type">BAGS</h2>
                 <h3 class="product-name">Blue Hipster Backpack</h3>
                 <h4 class="price">$69.00</h4>
             </div>
     
-            <div class="products shortun"><img src="images/demin-overall-shorts.jpg" alt="Demin Overall Shorts"> 
+            <div class="products shortun carousel-cell"><img src="images/demin-overall-shorts.jpg" alt="Demin Overall Shorts"> 
                 <h2 class="product-type">DEMIN</h2>
                 <h3 class="product-name">Demin Overall Shorts</h3>
                 <h4 class="price">$89.00</h4>
             </div>
     
-            <div class="products robedeux"> <img src="images/pink-dotted-dress.jpg" alt="A pink dotted dress">
+            <div class="products robedeux carousel-cell"> <img src="images/pink-dotted-dress.jpg" alt="A pink dotted dress">
                 <h2 class="product-type">DRESSES</h2>
                 <h3 class="product-name">Pink Dotted Dress</h3>
                 <h4 class="price">$99.0</h4>
+            </div>
+
+            <div class="products carousel-cell"><img src="images/blue-silk-dress.jpg" alt="A Blue Silk Dress"> 
+                <h2 class="product-type">DRESSES</h2>
+                <h3 class="product-name">Blue Silk Dress</h3>
+                <h4 class="price">$#</h4>
+            </div> 
+    
+            <div class="products carousel-cell"><img src="images/cotton-blue-shirt.jpg" alt="A cotton blue shirt">
+                <h2 class="product-type">SHIRTS</h2>
+                <h3 class="product-name">Cotton Blue Shirt</h3>
+                <h4 class="price">$#</h4>
+            </div>
+    
+            <div class="products carousel-cell"><img src="images/cotton-yellow-tshirt.jpg" alt="A cotton yellow tshirt">
+                <h2 class="product-type">SHIRTS</h2>
+                <h3 class="product-name">Cotton Yellow Shirt</h3>
+                <h4 class="price">$#</h4>
+            </div>
+    
+            <div class="products carousel-cell"><img src="images/stretch-knit-dress.jpg" alt="A stretch knit dress">
+                <h2 class="product-type">DRESSES</h2>
+                <h3 class="product-name">Stretch Knit Dress</h3>
+                <h4 class="price">$#</h4>
             </div>
         </div>
     </nav>
@@ -136,7 +159,7 @@
 
 <!--Email Part-->
 
-    <article class="container banemail">
+    <article class="container banemail" id="updatesjv">
         <section>
             <h2 class="titles3"><span class="italic">Sign-up for </span> Updates</h2>
         </section>
@@ -144,54 +167,57 @@
             <p>Stay updated on our latest products releases, be first <br class="mobilepolice"> to find out<br class="tablette"> about <br class="desktop" /> 
             upcoming sales, and get free styles<br class="mobilepolice"> tips from our blog.<br class="tablette"> Unsubscribe at any time.</p>
         </section>
-        <section>
+        <section id="newsletter">
             <form classe="case">
                 <div class="round">
-                    <input type="email" class="email" value="Your Email">
+                    <input id="email" type="email" class="email" placeholder="Your email">
                     <button>Subscribe</button> 
                 </div>
             </form>
         </section>
     </article>
+    <footer> <!--Credit-->
+        <div class="footer container">
+            <div class="footer-credit">
+                    <p class="credit">©2018 Aloha Apparel Co. <br>
+                        Powered by HTML and CSS. <br><br>
+                         604-604-6040. <a href="" class="lienmail">info@alohaapparel.com</a>
+                    </p> <br>
+                <p>
+                    <address class="adress">1490 W Brodway<br>
+                    Vancouver, BC, Canada</address>
+                <p>
+            </div>
+        <!--Social Media-->
+            <div>
+                    <ul class="social-media">
+                        <a href="" class="liensm">
+                        <li id="facebook"> <p>Facebook</p></li>
+                        </a>
+                        <a href="" class="liensm">
+                        <li id="twitter"> <p>Twitter</p></li>
+                        </a>
+                        <a href="" class="liensm">
+                        <li id="instagram"> <p>Instagram</p></li>
+                        </a>
+                        <a href="" class="liensm">
+                        <li id="pinterest"> <p>Pinterest</p></li>
+                        </a>
+                        <a href="" class="liensm">
+                        <li id="Googleplus"> <p>Google+</p></li>
+                        </a>
+                    </ul>
+            </div>
+        </div>
+        
+     </footer>
+<script src=jquery-3.3.1.js></script>
+<script src=flickity.pkgd.min.js></script>
+<script src=main.js></script>
  </body>
 
 <!--Footer part-->
 
- <footer> <!--Credit-->
-    <div class="footer container">
-        <div class="footer-credit">
-                <p class="credit">©2018 Aloha Apparel Co. <br>
-                    Powered by HTML and CSS. <br><br>
-                     604-604-6040. <a href="" class="lienmail">info@alohaapparel.com</a>
-                </p> <br>
-            <p>
-                <address class="adress">1490 W Brodway<br>
-                Vancouver, BC, Canada</address>
-            <p>
-        </div>
-    <!--Social Media-->
-        <div>
-                <ul class="social-media">
-                    <a href="" class="liensm">
-                    <li id="facebook"> <p>Facebook</p></li>
-                    </a>
-                    <a href="" class="liensm">
-                    <li id="twitter"> <p>Twitter</p></li>
-                    </a>
-                    <a href="" class="liensm">
-                    <li id="instagram"> <p>Instagram</p></li>
-                    </a>
-                    <a href="" class="liensm">
-                    <li id="pinterest"> <p>Pinterest</p></li>
-                    </a>
-                    <a href="" class="liensm">
-                    <li id="Googleplus"> <p>Google+</p></li>
-                    </a>
-                </ul>
-        </div>
-    </div>
-    
- </footer>
-
+ 
 
 </html>

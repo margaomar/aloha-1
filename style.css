@@ -164,12 +164,12 @@ header {
 }
 /* la grande bannière*/
 .banniere{
-    background:url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/banner-girl.png), url(images/flower-bkgd.jpg);
     background-repeat: no-repeat, no-repeat;
-    background-position: center 90px, center top;
+    background-position: center top, center 90px, center top;
     margin: 50px,0px, 50px;
     height: 600px;
-    background-size: 20%, cover;
+    background-size: cover, 20%, cover;
     display: flex, flex;
 }
 /* Les différentes catégories*/
@@ -180,14 +180,14 @@ header {
 }
 
 .mens{
-    background: url(images/mens-category.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(images/mens-category.jpg);
     width: 50%;
     background-size: 100%;
     margin-top: 8px;
     background-size: cover;
 }
 .trends{
-    background: url(images/trends-category.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(images/trends-category.jpg);
     width: 25%;
     background-size: 100%;
     margin-left: 8px;
@@ -195,7 +195,7 @@ header {
     background-size: cover;
 }
 .glasses{
-    background: url(images/glasses-category.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(images/glasses-category.jpg);
     width: 25%;
     background-size: 100%;
     margin-left: 8px;
@@ -209,7 +209,7 @@ header {
     height: 300px;
 }
 .womens{
-    background: url(images/womens-category.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(images/womens-category.jpg);
     width: 50%;
     background-size: 100%;
     margin-left: 8px;
@@ -217,14 +217,14 @@ header {
     background-size: cover;
 }
 .sale{
-    background: url(images/sale-category.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(images/sale-category.jpg);
     width: 25%;
     background-size: 100%;
     margin-top: 8px;
     background-size: cover;
 }
 .bags{
-    background: url(images/bags-category.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.3), rgba(0,0,0, 0.3)), url(images/bags-category.jpg);
     width: 25%;
     background-size: 100%;
     margin-left: 8px;
@@ -236,12 +236,12 @@ header {
         justify-content: center;
         align-items: center;
 }
-.mens-section h2 , .womens-section h2 {
+.mens-section h2 a, .womens-section h2 a{
     color: white;
     font-size: 30px;
     font-family: "Raleway";
     text-shadow: 1px 1px #666666;
-    text-decoration: none;
+    text-decoration:none; 
 }
 .menmobile{
     display: none;
@@ -264,14 +264,13 @@ header {
 }
 
 /*Fin des différentes catégories*/
-/*les meilleurs produits*/
+/*les meilleurs produits, carousel*/
 
-.listeproduit{
-    display: flex;
-    margin-top: 30px;
-    justify-content: center;
+
+.carousel{
+    margin: 10px;
 }
-.listeproduit h2{
+.carousel h2{
     font-size: 13px;
     display:flex;
     color: #969696;
@@ -280,7 +279,7 @@ header {
     font-style: normal;
     justify-content: center;
 }
-.listeproduit h3{
+.carousel h3{
     font-size: 21px;
     display: flex;
     margin-top: 20px;
@@ -290,7 +289,7 @@ header {
     font-style: normal;
     justify-content: center;
 }
-.listeproduit h4{
+.carousel h4{
     font-family: 'Raleway';
     font-weight: 500;
     font-style: normal;
@@ -300,6 +299,8 @@ header {
     justify-content: center;
     display: flex;
 }
+
+
 
 
 
@@ -368,7 +369,7 @@ header {
     font-weight: 400;
     font-style: normal;
     margin-top: 4px;
-    margin-left: 7px;
+    margin-left: 9px;
 }
 .titles3 {
     font-size: 40px;
@@ -443,7 +444,7 @@ text-decoration:none;
 color: #b64036;
 } 
 .lienmail{
-    text-decoration:white; 
+text-decoration:white; 
 color: white ;
 }
 .lienliste{ 
@@ -562,12 +563,41 @@ color: white ;
 /*Fin des différentes catégories*/
 /*les meilleurs produits*/
 
-.shortun{
-    display: none;
+
+.carousel{
+    margin: 10px;
 }
-.robedeux{
-    display: none;
+.carousel h2{
+    font-size: 13px;
+    display:flex;
+    color: #969696;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-style: normal;
+    justify-content: center;
 }
+.carousel h3{
+    font-size: 21px;
+    display: flex;
+    margin-top: 20px;
+    color: #e2574c;
+    font-family: 'Playfair Display';
+    font-weight: 500;
+    font-style: normal;
+    justify-content: center;
+}
+.carousel h4{
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    color: #969696;
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+
 
 /* partie email avec bannière et formulaire*/
 .banemail{
