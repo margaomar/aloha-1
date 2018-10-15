@@ -167,10 +167,8 @@ header {
     background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/banner-girl.png), url(images/flower-bkgd.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center top, center 90px, center top;
-    margin: 50px,0px, 50px;
     height: 600px;
     background-size: cover, 20%, cover;
-    display: flex, flex;
 }
 /* Les différentes catégories*/
 .mens-section{
@@ -268,7 +266,7 @@ header {
 
 
 .carousel{
-    margin: 10px;
+    width: 100%;
 }
 .carousel h2{
     font-size: 13px;
@@ -306,12 +304,11 @@ header {
 
 /* partie email avec bannière et formulaire*/
 .banemail{
-    background: url(images/wave-bkgd.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/wave-bkgd.jpg);
     margin-top: 100px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
     background-position: center bottom;
-    margin: 50px,0px, 50px;
     height: 300px;
     background-size: cover;
     padding-top: 1px;
@@ -355,7 +352,7 @@ header {
     justify-content: center;
     align-content: center;
     justify-items: center;
-    margin-left: 36%
+    margin-left: 34%
 }
 .round button{
     background: #e2574c;
@@ -523,13 +520,11 @@ color: white ;
 }
 /* la grande bannière*/
 .banniere{
-    background:url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/banner-girl.png), url(images/flower-bkgd.jpg);
     background-repeat: no-repeat, no-repeat;
-    margin: 50px,0px, 50px;
-    display: flex, flex;
-    background-position: center 57px, center top;
+    background-position: center top, center 57px, center top;
     height: 400px;
-    background-size: 19%, cover;
+    background-size: cover, 19%, cover;
 }
 /* Les différentes catégories*/
 .mens-section{
@@ -564,9 +559,7 @@ color: white ;
 /*les meilleurs produits*/
 
 
-.carousel{
-    margin: 10px;
-}
+
 .carousel h2{
     font-size: 13px;
     display:flex;
@@ -601,7 +594,7 @@ color: white ;
 
 /* partie email avec bannière et formulaire*/
 .banemail{
-    background: url(images/wave-bkgd.jpg);
+    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/wave-bkgd.jpg);
     margin-top: 100px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
