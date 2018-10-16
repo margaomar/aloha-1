@@ -737,11 +737,11 @@ color: white ;
     /* body */
     /* Bannière*/
     .banniere{
-        background: url(images/banner-girl.png), url(images/flower-bkgd.jpg);
+        
         background-repeat: no-repeat, no-repeat;
-        background-position: center 60px, center top;
-        height: 400px;
-        background-size: 41%, cover;
+        background-position: center top, center 60px, center top;
+        height: 380px;
+        background-size: cover, 41%, cover;
         display: flex, flex;
         width: 100%;
     }
@@ -834,11 +834,11 @@ color: white ;
     }
     
     .menmobile{
-        background: url(images/mens-category.jpg);
+   
         width: 100%;
         background-size: 100%;
         background-size: cover;
-        height: 250px;
+        height: 240px;
         margin-left: 0px;
         margin-top: 8px;
         margin-right: 0px;
@@ -846,22 +846,22 @@ color: white ;
         
     }
     .trendsmobile{
-        background: url(images/trends-category.jpg);
+    
         width: 49%;
         background-size: 100%;
         background-size: cover;
-        height: 250px;
+        height: 240px;
         margin-left: 0px;
         margin-top: 8px;
-        margin-right: 8px;
+        margin-right: 6px;
         margin-bottom: 0px;
     }
     .glassesmobile{
-        background: url(images/glasses-category.jpg);
+    
         width: 49%;
         background-size: 100%;
         background-size: cover;
-        height: 250px;
+        height: 240px;
         margin-left: 0px;
         margin-top: 8px;
         margin-right: 0px;
@@ -869,36 +869,36 @@ color: white ;
     }
     
     .womensmobile{
-        background: url(images/womens-category.jpg);
+       
         width: 100%;
         background-size: 100%;
         background-size: cover;
-        height: 250px;
+        height: 240px;
         margin-left: 0px;
         margin-top: 8px;
         margin-right: 0px;
         margin-bottom: 0px;
     }
     .bagsmobile{
-        background: url(images/bags-category.jpg);
+  
         width: 49%;
         background-size: 100%;
         background-size: cover;
-        height: 250px;
+        height: 240px;
         margin-left: 0px;
         margin-top: 8px;
         margin-right: 0px;
         margin-bottom: 0px;
     }
     .salemobile{
-        background: url(images/sale-category.jpg);
+    
         width: 49%;
         background-size: 100%;
         background-size: cover;
-        height: 250px;
+        height: 240px;
         margin-left: 0px;
         margin-top: 8px;
-        margin-right: 8px;
+        margin-right: 6px;
         margin-bottom: 0px;
     }
     /*Fin des différentes catégories*/
@@ -920,7 +920,7 @@ color: white ;
 
     /* partie email avec bannière et formulaire*/
     .banemail{
-    background: url(images/wave-bkgd.jpg);
+    
     margin-top: 50px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
