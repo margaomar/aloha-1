@@ -1,23 +1,20 @@
-# Project Title
+# Project Title and goal
 
-Aloha responsive website.
+Aloha is a responsive website, build for RED Academy
 
-
-### Prerequisites
-
-You don't need to install anything.
 
 ## Built With
 
+This website is build with HTML5, CSS3(flex, media queries, flickity), JavaScript, JQuery. I learned these languages with this website.
 
 ## Authors
 
 * **Paul Petillot**
 
+https://github.com/PaulPetillot
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+Link to my website : https://paulpetillot.github.io/aloha/
 
 
 
