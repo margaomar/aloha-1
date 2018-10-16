@@ -306,10 +306,6 @@ header {
     display: flex;
 }
 
-
-
-
-
 /* partie email avec bannière et formulaire*/
 .banemail{
     background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/wave-bkgd.jpg);
@@ -462,24 +458,11 @@ color: white ;
 
 
 
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1039px) {
 /* header */
 .liste li{
     display: inline-block;
     margin-left: 15px;
-    color: #e2574c;
-    font-family: 'Raleway';
-    font-weight: 500;
-    font-style: normal;
     margin-bottom: 15px;
     margin-top: 20px;
 }
@@ -488,22 +471,16 @@ color: white ;
 /* body */
 .NewCollection {
     font-size: 18px ;
- margin-top: 215px;
- margin-bottom: 30px;
- text-align: center; 
- font-family: "Raleway";
- text-shadow: 2px 2px #666666;
+    margin-top: 215px;
+    margin-bottom: 30px;
+    text-align: center; 
 
 }
 .title {
     font-size: 37px ;
- margin-top: -55px;
- margin-bottom: 5px;
- text-align: center; 
- font-family: 'Playfair Display';
-    font-weight: normal;
-    font-style: normal;
- text-shadow: 2px 2px #666666;
+    margin-top: -55px;
+    margin-bottom: 5px;
+    text-align: center; 
 }
 
 /* Le paragraphe en dessous de bannière*/
@@ -511,11 +488,7 @@ color: white ;
     margin-top: 10px;
     margin-bottom: 60px;
     text-align: center;
-   font-size: 18px;
-   font-family: 'Raleway';
-    font-weight: 300;
-    font-style: normal;
-    color: #242C2C;
+    font-size: 18px;
     line-height: 30px;
     display: flex;
     justify-content: center;
@@ -528,7 +501,6 @@ color: white ;
 }
 /* la grande bannière*/
 .banniere{
-    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/banner-girl.png), url(images/flower-bkgd.jpg);
     background-repeat: no-repeat, no-repeat;
     background-position: center top, center 57px, center top;
     height: 400px;
@@ -567,14 +539,13 @@ color: white ;
 /*les meilleurs produits*/
 .carousel{
     width: 100%;
-    
-  }
-  .carousel-cell{
-      width: 50%;
-      align-items: center;
-      justify-content: center;
-  }
-  .carousel-cell img{
+}
+.carousel-cell{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-cell img{
       margin: 0 auto;
     display: block;
 }
@@ -582,7 +553,6 @@ color: white ;
 
 /* partie email avec bannière et formulaire*/
 .banemail{
-    background: linear-gradient(rgba(0,0,0, 0.2), rgba(0,0,0, 0.2)), url(images/wave-bkgd.jpg);
     margin-top: 100px;
     margin-bottom: 10px;
     background-repeat: no-repeat;
@@ -590,7 +560,6 @@ color: white ;
     height: 300px;
     background-size: 170%;
     padding-top: 1px;
-
 }
 .email {
     margin-left: 10px;
@@ -598,10 +567,6 @@ color: white ;
     margin-top: 9px;
     width: 280px;
     height: 25px;
-    font-family: 'Raleway';
-    font-weight: 300;
-    font-style: normal;
-    color: #969696;
     font-size: 16px;
     border: 0px;
 }
@@ -611,18 +576,12 @@ color: white ;
     margin-left: 30px;
     text-align: center;
     font-size: 16px;
-    font-family: 'Raleway';
-    font-weight: 300;
-    font-style: normal;
-    color: white;
-    text-shadow: 1px 1px #666666;
     line-height: 30px;
     display: flex;
     justify-content: center;
 }
 .round{
     border-radius: 50px;
-    background: white;
     width: 300px;
     height: 40px;
     margin-top: 8px;
@@ -633,16 +592,11 @@ color: white ;
     margin-left: 36%;
 }
 .round button{
-    background: #e2574c;
     width: 87px;
     height: 30px;
     border-radius: 50px;
-    color: white;
     font-size: 16px;
     border: 0px;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-style: normal;
     margin-top: 5px;
     margin-left: 1px;
     margin-right: 5px;
@@ -650,12 +604,7 @@ color: white ;
 /*Fin de la partie mail*/
 /*footer part */
 .footer{
-    font-family: 'Playfair Display';
-    font-weight: normal;
-    font-style: normal;
     display: flex;
-    background-color: #242424;
-    color: white;
     padding-top: 55px;
     padding-bottom: 55px;
     padding-left: 0px;
@@ -667,15 +616,11 @@ color: white ;
 
 }
 
-
-
-
 @media screen and (max-width: 600px) {
     html{ font-size:14px;
     }
-    
      /*header */
-    .logo{
+.logo{
     width: 7.5rem;
     height: 3.75rem;
     margin-top: 26px;
@@ -683,157 +628,128 @@ color: white ;
     margin-bottom: 0px;
     display: flex;
     order: 1;
-    }
-    .cart{
-        height: 46px;
-        width: 88px;
-        margin-top: 30px;
-        order: 2;
-        margin-right: -7px;
-    }
-    .liste{
-        font-size: 12px;
-        color: #e2574c;
-        order:2;
-        display: inline;
-        margin-right: 0px;
-    }
-    .liste li{
-        display: inline-flex;
-        margin: 13px;
-        color: #e2574c;
-        font-family: 'Raleway';
-        font-weight: 500;
-        font-style: normal;
-        margin-bottom: 5px;
-        margin-top: 10px;
-        align-content: center;
-        justify-content: center;
-    }
-    
-    .headd{
-        display: flex;
-        flex-flow: wrap;
-    }
+}
+.cart{
+    height: 46px;
+    width: 88px;
+    margin-top: 30px;
+    order: 2;
+    margin-right: -7px;
+}
+.liste{
+    font-size: 12px;
+    order:2;
+    display: inline;
+    margin-right: 0px;
+    border-top: 1px solid #d7d7d7;
+}
+.liste li{
+    display: inline-flex;
+    margin: 13px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.headd{
+    display: flex;
+    flex-flow: wrap;
+}
     /* Le logo*/
-    .order1{
-        order:1;
-        width: 50%;
-    }
-    /*La liste*/
-    .order2{
-        order :3;
-        margin: 0 auto;
-    }
-    /* Le panier*/
-    .order3{
-        order:2;
-        width: 50%;
-        float: right;
-    }
-    .order3 img{
-        float: right;
-    }
+.order1{
+    order:1;
+    width: 50%;
+   }
+/*La liste*/
+.order2{
+    order :3;
+    margin: 0 auto;
+}
+/* Le panier*/
+.order3{
+    order:2;
+    width: 50%;
+    float: right;
+}
+.order3 img{
+    float: right;
+}
     /* body */
     /* Bannière*/
-    .banniere{
-        
-        background-repeat: no-repeat, no-repeat;
-        background-position: center top, center 60px, center top;
-        height: 380px;
-        background-size: cover, 41%, cover;
-        display: flex, flex;
-        width: 100%;
-    }
-    .NewCollection {
-        font-size: 20px;
-        margin-top: 148px;
-        margin-bottom: 0px;
-        text-align: center;
-        display: flex;
-        font-family: "Raleway";
-        text-shadow: 2px 2px #666666;
-    }
+.banniere{    
+    background-repeat: no-repeat, no-repeat;
+    background-position: center top, center 60px, center top;
+    height: 380px;
+    background-size: cover, 41%, cover;
+    display: flex, flex;
+    width: 100%;
+}
+.NewCollection {
+    font-size: 20px;
+    margin-top: 148px;
+    margin-bottom: 0px;
+    display: flex;
+}
     
-    .mobiletitre{
-        display: unset;
-    }
-    .title {
-        font-size: 30px;
-        margin-top: -40px;
-        margin-bottom: 5px;
-        text-align: center;
-        font-family: 'Playfair Display';
-        font-weight: normal;
-        font-style: normal;
-        text-shadow: 2px 2px #666666;
-        display: flex;
-    }
-    .lettre div{
-        color: white;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 150px;  
-    }
-    .titles2 {
-        font-size: 33px;
-        margin-bottom: 38px;
-        margin-top: 25px;
-        text-align: center;
-        font-family: 'Playfair Display';
-        font-weight: bold;
-        font-style: normal;
-    }
-    .italic{
-        font-family: 'Playfair Display';
-        font-weight: normal;
-        font-style: italic;
-    }
+.mobiletitre{
+    display: unset;
+}
+.title {
+    font-size: 30px;
+    margin-top: -40px;
+    margin-bottom: 5px;
+    display: flex;
+}
+.lettre div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;  
+}
+.titles2 {
+    font-size: 33px;
+    margin-bottom: 38px;
+    margin-top: 25px;
+}
     /* Le paragraphe en dessous de bannière*/
-    .paragraphe{
-        margin-top: -28px;
-        margin-bottom: 27px;
-        text-align: center;
-        font-size: 15px;
-        font-family: 'Raleway';
-        font-weight: 300;
-        font-style: normal;
-        color: #242C2C;
-        line-height: 30px;
-        display: flex;
-        justify-content: center;
-    }
-    .tablette{
-        display: none;
-    }
-    .desktop{
-        display: none;
-    }
+.paragraphe{
+    margin-top: -28px;
+    margin-bottom: 27px;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+}
+.tablette{
+    display: none;
+}
+.desktop{
+    display: none;
+}
     
     /* Les différentes catégories*/
     
     
-    .mens-section div, .womens-section div{
-          display: flex;
+.mens-section div, .womens-section div{
+    display: flex;
           
-    }
-    .mens-section{
+}
+.mens-section{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    overflow: hidden;
+    height: auto;
+}
+.womens-section{
         display: flex;
         flex-wrap: wrap;
         align-content: center;
         overflow: hidden;
         height: auto;
-    }
-    .womens-section{
-        display: flex;
-        flex-wrap: wrap;
-        align-content: center;
-        overflow: hidden;
-        height: auto;
-    }
+}
     
-    .menmobile{
+.menmobile{
    
         width: 100%;
         background-size: 100%;
@@ -844,8 +760,8 @@ color: white ;
         margin-right: 0px;
         margin-bottom: 0px;
         
-    }
-    .trendsmobile{
+}
+.trendsmobile{
     
         width: 49%;
         background-size: 100%;
@@ -855,8 +771,8 @@ color: white ;
         margin-top: 8px;
         margin-right: 6px;
         margin-bottom: 0px;
-    }
-    .glassesmobile{
+}
+.glassesmobile{
     
         width: 49%;
         background-size: 100%;
@@ -866,9 +782,9 @@ color: white ;
         margin-top: 8px;
         margin-right: 0px;
         margin-bottom: 0px;
-    }
+}
     
-    .womensmobile{
+.womensmobile{
        
         width: 100%;
         background-size: 100%;
@@ -878,8 +794,8 @@ color: white ;
         margin-top: 8px;
         margin-right: 0px;
         margin-bottom: 0px;
-    }
-    .bagsmobile{
+}
+.bagsmobile{
   
         width: 49%;
         background-size: 100%;
@@ -889,8 +805,8 @@ color: white ;
         margin-top: 8px;
         margin-right: 0px;
         margin-bottom: 0px;
-    }
-    .salemobile{
+}
+.salemobile{
     
         width: 49%;
         background-size: 100%;
@@ -900,14 +816,10 @@ color: white ;
         margin-top: 8px;
         margin-right: 6px;
         margin-bottom: 0px;
-    }
+}
     /*Fin des différentes catégories*/
     /*les meilleurs produits*/
-    
-  .carousel{
-    width: 100%;
-    
-  }
+
   .carousel-cell{
       width: 100%;
       align-items: center;
@@ -930,37 +842,26 @@ color: white ;
     padding-top: 1px;
     width: 100%;
     }
-    .email {
-        margin-left: -16px;
-        margin-bottom: 0px;
-        margin-top: 8px;
-        width: 105px;
-        height: 13px;
-        font-family: 'Raleway';
-        font-weight: 300;
-        font-style: normal;
-        color: #969696;
-        font-size: 15px;
-        border: 0px;
-    }
-    .paragraphe2{
-        margin-top: 20px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        text-align: center;
-        font-size: 17px;
-        font-family: 'Raleway';
-        font-weight: 300;
-        font-style: normal;
-        color: white;
-        text-shadow: 1px 1px #666666;
-        line-height: 30px;
-        display: flex;
-        justify-content: center;
-    }
-    .round{
-        border-radius: 50px;
-        background: white;
+.email {
+    margin-left: -16px;
+    margin-bottom: 0px;
+    margin-top: 8px;
+    width: 105px;
+    height: 13px;
+    font-size: 15px;
+    border: 0px;
+}
+.paragraphe2{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    display: flex;
+    justify-content: center;
+}
+.round{
         width: 200px;
         height: 29px;
         margin-top: 16px;
@@ -968,34 +869,30 @@ color: white ;
         justify-content: center;
         align-content: center;
         margin-left: 27%;
-    }
-    .round button{
-    background: #e2574c;
+}
+.round button{
+  
     width: 65px;
     height: 23px;
     border-radius: 50px;
-    color: white;
     font-size: 11px;
     border: 0px;
-    font-family: 'Raleway';
-    font-weight: 400;
-    font-style: normal;
     margin-top: 3px;
     margin-left: 10px;
     margin-right: -26px;
-    }
-    .titles3 {
-        font-size: 34px;
-        margin-bottom: 0px;
-        margin-top: 50px;
-        text-align: center;
-        font-family: 'Playfair Display';
-        font-weight: bold;
-        font-style: normal;
-        color: white;
-        text-shadow: 1px 1px #666666;
-        margin-left: 0px;
-    }
+}
+.titles3 {
+    font-size: 34px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    text-shadow: 1px 1px #666666;
+    margin-left: 0px;
+}
     /*Fin de la partie mail*/
     /*footer part */
     .footer{
@@ -1046,18 +943,6 @@ color: white ;
         margin-bottom: 2px;
         line-height: 28px;
     }
-    /* Lien cachés*/
-    a.liensm:link { 
-    text-decoration:none; 
-    color: #b64036;
-    } 
-    .lienmail{
-        text-decoration:white; 
-    color: white ;
-    }
-    .lienliste{ 
-        text-decoration:none; 
-        color: #b64036;
-    }
+    
     /*fin du site pour mobile */
 }
