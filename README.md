@@ -7,7 +7,7 @@ Aloha is a responsive website, build for RED Academy
 
 This website is build with HTML5, CSS3(flex, media queries, flickity), JavaScript, JQuery. I learned these languages with this website.
 
-## Authors
+## Author
 
 * **Paul Petillot**
 
