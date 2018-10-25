@@ -455,7 +455,15 @@ color: white ;
 .mobilepolice{display: none;}
 .mobiletitre{display: none;}
 /*fin du site pour desktop*/
-
+.screen-reader-text:focus {
+    clip: auto !important;
+    display: block;
+    height: auto;
+    left: 5px;
+    top: 5px;
+    width: auto;
+    z-index: 100000; /* above all content */
+ }
 
 
 @media screen and (max-width: 1039px) {
